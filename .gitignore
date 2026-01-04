@@ -6,9 +6,12 @@
 *.lo
 *.o
 *.obj
+
+# Code::Blocks
 *.depend
 *.layout
 *.cbp
+
 # Precompiled Headers
 *.gch
 *.pch
