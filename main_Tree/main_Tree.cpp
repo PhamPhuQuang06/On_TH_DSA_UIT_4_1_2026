@@ -227,6 +227,7 @@ và tất cả nút lá có cùng độ cao. Thì để chứng minh xem thì c�
             int HL = BalanceBTVersion2(T->left);
             if(HL == -1) return -1;
             int HR = BalanceBTVersion2(T->right);
+            if(HR == -1) return -1;
             if(abs(HR - HL) > 1) return -1;
             return (HR > HL? HR : HL) + 1;//toán tử 3 ngồi khi đếu cho dùng max
         }
